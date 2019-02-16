@@ -11,8 +11,9 @@ def sol1():
 		if i not in primes and num % i == 0:
 			primes.append(i)
 			num = num / i
-
 		i+=1
+	i = 1 
+	# print(i)
 
 	return max(primes)
 
